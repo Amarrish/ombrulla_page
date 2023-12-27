@@ -1,0 +1,15 @@
+.btns button:hover{
+    background-color: white;
+    color: rgb(0, 54, 134);
+    border: 1px solid black;
+}
+.btns p{
+    cursor: pointer;
+}
+.btns p:hover{
+    color: rgb(0, 54, 134);
+}
+
+.homepage img{
+    border-radius: 50px 80px 93px 126px;
+}

@@ -1,24 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Analytics from './components/Analytics';
+import Brands from './components/Brands';
+import Cardinfo from './components/Cardinfo';
+import Cards from './components/Cards';
+import Customercrsl from './components/Customercrsl';
+import Customers from './components/Customers';
+import Footer from './components/Footer';
+import Homepage from './components/Homepage';
+import Infrastructure from './components/Infrastructure';
+import Navbar from './components/Navbar';
+import Petran from './components/Petran';
+import Visual from './components/Visual';
+import Watchvideo from './components/Watchvideo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      <Navbar/>
+     <Homepage/>
+     <Watchvideo/>
+     <Infrastructure/>
+     <Visual/>
+     <Analytics/>
+     <Petran/>
+     <Cards/>
+     <Customers/>
+     <Customercrsl/>
+     <Brands/>
+     <Cardinfo/>
+     <Footer/>
     </div>
+    </>
   );
 }
 
